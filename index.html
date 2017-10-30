@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <style type="text/css">
+        body, #container {
+            align-items: center;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            align-items: center;
+            text-decoration: none
+        }
+        .logo {
+            padding: 2.5%;
+            padding-bottom: 15%;
+            width: 44.5%;
+        }
+        .logo.left {
+            border-right: 3px #666 solid;
+        }
+        @media (orientation: portrait) {
+            #container {
+                align-items: center;
+            }
+            .logo {
+                border-right: none !important;
+                padding-bottom: 2%;
+                width: 80%;
+                padding: 2.5% 10%;
+            }
+            .logo.left {
+                border-bottom: 3px #666 solid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="#container">
+        <a href="//stoverceramics.com">
+            <img class="logo left" src="stover-ceramics-logo.png" />
+        </a>
+        <a href="//anneharisonart.com">
+            <img class="logo" src="anne-harrison-logo.jpg" />
+        </a>
+    </div>
+</body>
+</html>
